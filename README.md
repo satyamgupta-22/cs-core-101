@@ -55,11 +55,7 @@ Star the repo if it helps you, and send a PR if you can explain something better
 - [Top 10 SQL interview queries](guides/sql/top-10-sql-interview-queries.md) ✅
 - Subquery vs JOIN
 
-### Real Project Case Studies
-- How a student marketplace works (auth, DB, search, chat)
-- Firebase auth flow, explained
-- Real-time database: how updates reach the screen
-- Designing a simple notification system
+
 
 ## Contributing
 Read [CONTRIBUTING.md](CONTRIBUTING.md). Use [the template](guides/_TEMPLATE.md).

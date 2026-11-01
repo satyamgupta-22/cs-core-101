@@ -29,8 +29,8 @@ Star the repo if it helps you, and send a PR if you can explain something better
 - [Normalization (1NF to BCNF)](guides/dbms/normalization.md) ✅
 - [Indexing: why queries get fast](guides/dbms/indexing.md) ✅
 - [SQL vs NoSQL: how to choose](guides/dbms/sql-vs-nosql.md) ✅
-- Transactions and isolation levels
-- Primary key vs Foreign key vs Candidate key
+- [Transactions and isolation levels](guides/dbms/transactions-and-isolation-levels.md) ✅
+- [Primary key vs Foreign key vs Candidate key](guides/dbms/keys-in-dbms.md) ✅
 - CAP theorem in simple words
 
 ### Computer Networks
@@ -38,22 +38,22 @@ Star the repo if it helps you, and send a PR if you can explain something better
 - [What happens when you type a URL in the browser?](guides/networks/what-happens-when-you-type-a-url.md) ✅
 - [TCP vs UDP](guides/networks/tcp-vs-udp.md) ✅
 - [Cookies vs Sessions vs JWT](guides/networks/cookies-sessions-jwt.md) ✅
-- How DNS works
-- HTTP vs HTTPS (and how TLS works)
-- REST API basics
+- [How DNS works](guides/networks/how-dns-works.md) ✅
+- [HTTP vs HTTPS (and how TLS works)](guides/networks/http-vs-https.md) ✅
+- [REST API basics](guides/networks/rest-api-basics.md) ✅
 
 ### OOP
 - [4 pillars of OOP](guides/oop/four-pillars-of-oop.md) ✅
 - [Overloading vs Overriding](guides/oop/overloading-vs-overriding.md) ✅
+- [SOLID principles](guides/oop/solid-principles.md) ✅
 - Abstraction vs Encapsulation
-- SOLID principles
 - Most-asked design patterns
 
 ### SQL
 - [SQL joins, visually](guides/sql/sql-joins.md) ✅
-- GROUP BY vs HAVING
+- [GROUP BY vs HAVING](guides/sql/group-by-vs-having.md) ✅
+- [Top 10 SQL interview queries](guides/sql/top-10-sql-interview-queries.md) ✅
 - Subquery vs JOIN
-- Top 10 SQL interview queries
 
 ### Real Project Case Studies
 - How a student marketplace works (auth, DB, search, chat)

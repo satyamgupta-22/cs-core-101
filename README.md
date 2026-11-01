@@ -25,7 +25,7 @@ Star the repo if it helps you, and send a PR if you can explain something better
 - What happens when you boot a computer?
 
 ### DBMS
-- ACID properties
+- [ACID properties](guides/dbms/acid-properties.md)
 - Normalization (1NF to BCNF)
 - Indexing: why queries get fast
 - Transactions and isolation levels

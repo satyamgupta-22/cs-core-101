@@ -16,8 +16,8 @@ Star the repo if it helps you, and send a PR if you can explain something better
 ## Table of Contents
 
 ### Operating Systems
-- [Process vs Thread](guides/os/process-vs-thread.md) ✅
-- Deadlock: causes and how to prevent it
+- [Process vs Thread](guides/os/process-vs-thread.md) 
+- [Deadlock](guides/os/deadlock.md) 
 - CPU scheduling algorithms
 - Paging vs Segmentation
 - Virtual memory and page replacement

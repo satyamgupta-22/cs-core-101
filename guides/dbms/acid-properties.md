@@ -3,9 +3,9 @@
 ## Diagram
 ```mermaid
 flowchart LR
-    S[Start: Account A = 100, Account B = 50] --> T{Transfer 30 from A to B}
-    T -->|All steps succeed| C[Commit: A = 70, B = 80]
-    T -->|Any step fails| R[Rollback: A = 100, B = 50]
+    S["Start: Account A = 100, Account B = 50"] --> T{"Transfer 30 from A to B"}
+    T -->|"All steps succeed"| C["Commit: A = 70, B = 80"]
+    T -->|"Any step fails"| R["Rollback: A = 100, B = 50"]
 ```
 
 ## Explained in 5 lines

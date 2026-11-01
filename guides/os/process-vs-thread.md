@@ -3,21 +3,21 @@
 ## Diagram
 ```mermaid
 flowchart TB
-    subgraph P1[Process A]
+    subgraph P1["Process A"]
         direction TB
-        M1[(Own memory: code, data, heap)]
-        T1[Thread 1<br/>own stack]
-        T2[Thread 2<br/>own stack]
+        M1[("Own memory: code, data, heap")]
+        T1["Thread 1 - own stack"]
+        T2["Thread 2 - own stack"]
         T1 --- M1
         T2 --- M1
     end
-    subgraph P2[Process B]
+    subgraph P2["Process B"]
         direction TB
-        M2[(Own memory: code, data, heap)]
-        T3[Thread 1<br/>own stack]
+        M2[("Own memory: code, data, heap")]
+        T3["Thread 1 - own stack"]
         T3 --- M2
     end
-    P1 -. needs IPC to talk .- P2
+    P1 -. "needs IPC to talk" .- P2
 ```
 
 ## Explained in 5 lines

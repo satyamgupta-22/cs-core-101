@@ -3,10 +3,10 @@
 ## Diagram
 ```mermaid
 flowchart LR
-    P1[Process 1] -- holds --> R1[(Resource A)]
-    P2[Process 2] -- holds --> R2[(Resource B)]
-    P1 -. waits for .-> R2
-    P2 -. waits for .-> R1
+    P1["Process 1"] -- holds --> R1[("Resource A")]
+    P2["Process 2"] -- holds --> R2[("Resource B")]
+    P1 -. "waits for" .-> R2
+    P2 -. "waits for" .-> R1
 ```
 
 ## Explained in 5 lines
